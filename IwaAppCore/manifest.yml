@@ -1,0 +1,8 @@
+applications:
+- name: IWAAppCore
+  stack: windows
+  buildpacks:
+  - binary_buildpack
+  command: ".\\IwaAppCore.exe --urls http://0.0.0.0:8080"
+  path: publish
+  instances: 3

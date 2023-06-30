@@ -1,0 +1,7 @@
+applications:
+- name: IwaApp
+  stack: windows
+  buildpacks:
+  - hwc_buildpack
+  path: IwaApp/bin/app.publish
+  instances: 1
